@@ -2,13 +2,14 @@
 title: "Reproducible Research: Peer Assessment 1"
 output: 
   html_document:
-    keep_md: true
+    Author: Zhao Jianzhuang
 ---
 
 
 ## Loading and preprocessing the data
 
 ```{r,cache=TRUE}
+unzip("activity.zip")
 activity<-read.csv("activity.csv")
 ```
 
